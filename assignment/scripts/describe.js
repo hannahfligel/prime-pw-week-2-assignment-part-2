@@ -26,16 +26,15 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it's value as 'Dane'.
+// if the value of name is equal to Mary than the console log will display "Hi, Mary!"
+// if the value of name is not 'mary', than the console log will display "How do you do?"
 
 //CODE
 /*
 let name = 'Dane';
 
-if (name === 'Mary') {
+if (name === 'mary') {
   console.log('Hi, Mary!');
 } else {
   console.log('How do you do?');
