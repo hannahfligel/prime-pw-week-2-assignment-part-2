@@ -44,10 +44,12 @@ if (name === 'mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret, and we don't assign it a value
+// We make a variable of code and set it's value to the number 123
+// If the value of code is equal to 123, then we assign super as the value of secret 
+// If the value of code is equal to 123, then the value of code doubles
+// If the value of code is greater than 250, then the value of secret gets set to 'duper'
+// We console.log the value of secret.
 
 //CODE
 /*
@@ -69,10 +71,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent, and assign it's value to true 
+// We make a variable called age, and assign it's value to the number 34
+// We make a variable called zip, and assign it's value to the number 55407
+// If the value of isStudent is equal to true and zip is greater than 80000
+// Then we console.log 'You're a student on the West Coast!'
+// If the value of isStudent is equal to false or age is less than the number 30. 
+// Then we console.log 'What are your hobbies?'
+// If the value of isStudent is equal to true 
+// Then console.log 'Welcome to Prime!'
+// Otherwise, console.log 'How about the weather?'
 
 //CODE
 /*
