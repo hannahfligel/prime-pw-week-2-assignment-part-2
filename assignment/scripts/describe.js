@@ -136,15 +136,31 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-/*
-let colorOne = 'red';
-let colorTwo = 'blue';
+
+// /*
+// let colorOne = 'blue';
+// FIX - colorTwo is red to blue, but the instructions ask to set it to red. 
+// let colorTwo = 'blue';
+// let mix = true;
+
+// if (mix === true) {
+//   colorOne = 'purple';
+// FIX - colorTwo should also be set to purple if the mix is true. 
+// }
+// */
+
+// SOLUTION: 
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'purple';
 }
-*/
+
+
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -152,12 +168,23 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX - time is a variable as instructed, not a constant 
 const time = 4;
-
+// FIX - instead of or (||), there needs to be and (&&) between time and temp.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+
+// SOLUTION: 
+
+let temp = 40;
+let time = 4;
+
+if (temp > 39 && time >= 4) {
+  console.log('throw away the food!');
+}
+
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
