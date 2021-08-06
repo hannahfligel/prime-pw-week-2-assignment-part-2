@@ -192,12 +192,27 @@ if (temp > 39 && time >= 4) {
 
 /*
 let age = 21;
+// FIX - minAge is set as constant, but instruction says to set it as a variable 
 const minAge = 21;
 
 if(minAge <= age) {
+// FIX - first console log in the if statment should says 'enter', second console log should say 'no entry'
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
+
+
+// SOLUTION:
+
+let age = 21;
+let minAge = 21;
+
+if(minAge <= age) {
+  console.log('enter');
+} else {
+  console.log('no entry');
+}
+
 
