@@ -139,7 +139,7 @@ if (number >= 2) {
 
 // /*
 // let colorOne = 'blue';
-// FIX - colorTwo is red to blue, but the instructions ask to set it to red. 
+// FIX - colorTwo is red set to blue, but the instructions ask to set it to red. 
 // let colorTwo = 'blue';
 // let mix = true;
 
